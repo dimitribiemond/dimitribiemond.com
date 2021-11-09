@@ -1,4 +1,7 @@
-a.links {
+a:link {
+    color: blue;
+}
+a:visited {
     color: blue;
 }
 header {
@@ -10,4 +13,27 @@ footer {
 .links {
     text-align: center;
     padding: 10px;
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+    }
+    a:link {
+        color: #58a6ff;
+    }
+    a:visited {
+        color: #58a6ff;;
+    }
+    header {
+        color: whitesmoke;
+        text-align: center;
+    }
+    footer {
+        color: whitesmoke;
+        text-align: center;
+    }
+    .links {
+        text-align: center;
+        padding: 10px;
+    }
 }
